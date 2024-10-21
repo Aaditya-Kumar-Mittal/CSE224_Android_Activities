@@ -5,35 +5,35 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backtwo"
+    android:layout_margin="25dp"
+    android:gravity="center_horizontal"
     android:orientation="vertical"
-    android:padding="30dp"
-    tools:context=".ListViewDemo">
+    tools:context=".CAPracticeListView">
 
 
     <EditText
-        android:id="@+id/listInput"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:ems="10"
-        android:hint="@string/enter_data"
-        android:inputType="text"
-        android:text="" />
-
-    <Button
-        android:id="@+id/addButton"
+        android:id="@+id/inputListData1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:text="@string/add_list" />
+        android:layout_marginVertical="10dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Enter Item"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/addListItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Item"
+        android:textSize="15sp" />
 
     <ListView
-        android:id="@+id/dataList"
+        android:id="@+id/practiceList1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="30dp"
-        android:dividerHeight="0dp" />
-
+        android:layout_margin="10dp"
+        android:divider="@color/orange"
+        android:dividerHeight="1dp" />
 </LinearLayout>
