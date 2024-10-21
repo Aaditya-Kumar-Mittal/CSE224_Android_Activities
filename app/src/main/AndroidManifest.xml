@@ -13,8 +13,41 @@
         android:theme="@style/Theme.Kotlin_project"
         tools:targetApi="31">
         <activity
+            android:name=".CAPracticeIntents"
+            android:exported="true" />
+        <activity
+            android:name=".CAPracticeSpinner"
+            android:exported="true" />
+        <activity
+            android:name=".CAPracticeListView"
+            android:exported="true" />
+        <activity
+            android:name=".CAPracticeScrollOne"
+            android:exported="true" />
+        <activity
+            android:name=".CAPracticeReceiveDataTwo"
+            android:exported="true" />
+        <activity
+            android:name=".CAPracticeSendData"
+            android:exported="true" />
+        <activity
+            android:name=".CAPracticeReceiveData"
+            android:exported="true" />
+        <activity
+            android:name=".CAPracticeDataPass"
+            android:exported="true" />
+        <activity
+            android:name=".CAPracticeActionBar"
+            android:exported="true" />
+        <activity
+            android:name=".ActionBarDemo"
+            android:exported="true" />
+        <activity
+            android:name=".ImplicitExplicitIntents"
+            android:exported="true" />
+        <activity
             android:name=".SnackbarDemo"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".TranslateButtons"
             android:exported="true" />

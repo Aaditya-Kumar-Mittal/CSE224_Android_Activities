@@ -14,4 +14,16 @@
     <string name="enter_data">Enter the data</string>
     <string name="add_list">Add To List</string>
     <string name="vision">Empowering Education</string>
+    <string name="string" translatable="false">Snackbar Display</string>
+    <string name="gallery_button" translatable="false">Gallery Button</string>
+    <string name="about_app" translatable="false">About App</string>
+    <string name="settings" translatable="false">Settings</string>
+    <string name="snackbar_demo" translatable="false">SnackBar Demo</string>
+    <string name="implicit_intents" translatable="false">Implicit Intents</string>
+    <string name="explicit_intents" translatable="false">Explicit Intents</string>
+    <string name="scroll_view" translatable="false">Scroll View</string>
+    <string name="spinner_view" translatable="false">Spinner View</string>
+    <string name="list_view" translatable="false">List View</string>
+    <string name="app_localization" translatable="false">App Localization</string>
+    <string name="enter_your_username" translatable="false">Enter your username</string>
 </resources>

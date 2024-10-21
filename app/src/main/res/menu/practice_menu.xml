@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="@string/snackbar_demo"
+        android:id="@+id/snackOption"
+        android:icon="@drawable/baseline_description_24"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:title="@string/implicit_intents"
+        android:id="@+id/implicitOption"
+        android:icon="@drawable/baseline_description_24"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:title="@string/explicit_intents"
+        android:id="@+id/explicitOption"
+        android:icon="@drawable/baseline_description_24"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:title="@string/scroll_view"
+        android:id="@+id/scrollOption"
+        android:icon="@drawable/baseline_description_24"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:title="@string/spinner_view"
+        android:id="@+id/spinnerOption"
+        android:icon="@drawable/baseline_description_24"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:title="@string/list_view"
+        android:id="@+id/listOption"
+        android:icon="@drawable/baseline_description_24"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:title="@string/app_localization"
+        android:id="@+id/appLocalOption"
+        android:icon="@drawable/baseline_description_24"
+        app:showAsAction="collapseActionView"/>
+
+</menu>
