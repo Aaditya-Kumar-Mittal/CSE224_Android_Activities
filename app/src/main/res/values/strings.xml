@@ -26,4 +26,7 @@
     <string name="list_view" translatable="false">List View</string>
     <string name="app_localization" translatable="false">App Localization</string>
     <string name="enter_your_username" translatable="false">Enter your username</string>
+    <string name="aaditya_kumar">Aaditya Kumar</string>
+    <string name="male">Male</string>
+    <string name="age_19">19</string>
 </resources>
