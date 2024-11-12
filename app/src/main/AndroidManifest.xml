@@ -22,8 +22,29 @@
         android:theme="@style/Theme.Kotlin_project"
         tools:targetApi="31">
         <activity
-            android:name=".DisplayImageActivity"
+            android:name=".ClassContextMenuDemo"
+            android:exported="true" />
+        <activity
+            android:name=".ClassLanguageDialogBox"
+            android:exported="true" />
+        <activity
+            android:name=".ClassCustomDialogTwo"
             android:exported="false" />
+        <activity
+            android:name=".ClassRatingBarDemo"
+            android:exported="true" />
+        <activity
+            android:name=".ClassGiveRating"
+            android:exported="true" />
+        <activity
+            android:name=".ClassDialogBox"
+            android:exported="true" />
+        <activity
+            android:name=".DhanTerasTask"
+            android:exported="true" />
+        <activity
+            android:name=".DisplayImageActivity"
+            android:exported="true" />
         <activity
             android:name=".ClassPermissonsDemo"
             android:exported="true" />
@@ -126,6 +147,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
