@@ -5,20 +5,6 @@
       <SelectionState runConfigName="app">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="ClassGiveRating">
-        <option name="selectionMode" value="DROPDOWN" />
-      </SelectionState>
-      <SelectionState runConfigName="ClassLanguageDialogBox">
-        <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2024-11-07T08:01:25.585245400Z">
-          <Target type="DEFAULT_BOOT">
-            <handle>
-              <DeviceId pluginId="PhysicalDevice" identifier="serial=YHCABYKRS4YH5DV8" />
-            </handle>
-          </Target>
-        </DropdownSelection>
-        <DialogSelection />
-      </SelectionState>
       <SelectionState runConfigName="ClassContextMenuDemo">
         <option name="selectionMode" value="DROPDOWN" />
         <DropdownSelection timestamp="2024-11-13T08:07:06.005562100Z">
@@ -42,6 +28,12 @@
         <DialogSelection />
       </SelectionState>
       <SelectionState runConfigName="PermissionSample">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="CAPracticeAppChooser">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="CAPracticeContextMenu">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>

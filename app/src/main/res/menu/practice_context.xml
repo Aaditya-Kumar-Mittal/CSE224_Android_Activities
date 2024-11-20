@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/practiceChangeColor"
+        android:title="Change Color To Red" />
+    <item
+        android:id="@+id/practiceRotate"
+        android:title="Rotate Image" />
+    <item
+        android:id="@+id/practiceShareImage"
+        android:title="Share Image" />
+    <item
+        android:id="@+id/practiceChangeBack"
+        android:title="Change To Original" />
+</menu>
