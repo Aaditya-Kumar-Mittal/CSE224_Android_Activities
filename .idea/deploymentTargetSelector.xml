@@ -5,35 +5,27 @@
       <SelectionState runConfigName="app">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="ClassContextMenuDemo">
+      <SelectionState runConfigName="ClassPermissonsDemo">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2024-11-13T08:07:06.005562100Z">
+        <DropdownSelection timestamp="2024-11-20T17:47:26.072203Z">
           <Target type="DEFAULT_BOOT">
             <handle>
-              <DeviceId pluginId="PhysicalDevice" identifier="serial=YHCABYKRS4YH5DV8" />
+              <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\adity\.android\avd\Pixel_6a_API_VanillaIceCream.avd" />
             </handle>
           </Target>
         </DropdownSelection>
         <DialogSelection />
       </SelectionState>
-      <SelectionState runConfigName="ClassPopUpDemo">
-        <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2024-11-13T08:10:58.846327600Z">
-          <Target type="DEFAULT_BOOT">
-            <handle>
-              <DeviceId pluginId="PhysicalDevice" identifier="serial=YHCABYKRS4YH5DV8" />
-            </handle>
-          </Target>
-        </DropdownSelection>
-        <DialogSelection />
-      </SelectionState>
-      <SelectionState runConfigName="PermissionSample">
+      <SelectionState runConfigName="CAPracticeCameraPermission">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="CAPracticeAppChooser">
+      <SelectionState runConfigName="CAPracticeAlertDialogBox">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="CAPracticeContextMenu">
+      <SelectionState runConfigName="CAPracticeCustomAlertDialogBox">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="CAPracticeBluetoothPermission">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>
