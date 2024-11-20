@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/practiceChangeColorPopUp"
+        android:title="Change Color To Blue" />
+    <item
+        android:id="@+id/practiceRotatePopUp"
+        android:title="Rotate Image" />
+    <item
+        android:id="@+id/practiceChangeBackPopUp"
+        android:title="Change To Original" />
+    <item
+        android:id="@+id/practiceChangeSize"
+        android:title="Change Image Size" />
+</menu>
