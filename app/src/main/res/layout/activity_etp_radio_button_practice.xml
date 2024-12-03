@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ETP_RadioButtonPractice">
+
+
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What is your favourite color?"
+        android:textAlignment="center"
+        android:textSize="28sp" />
+
+    <RadioGroup
+        android:id="@+id/etpRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/white_background"
+        android:gravity="center"
+        android:padding="15dp">
+
+        <RadioButton
+            android:id="@+id/etpRedRadio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Red Color"
+            android:textColor="#F44336"
+            android:textFontWeight="600"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/etpBlueRadio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blue Color"
+            android:textColor="#2196F3"
+            android:textFontWeight="600"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/etpGreenRadio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Green Color"
+            android:textColor="#4CAF50"
+            android:textFontWeight="600"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/etpPinkRadio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pink Color"
+            android:textColor="#E91E63"
+            android:textFontWeight="600"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/etpPurpleRadio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Purple Color"
+            android:textColor="#9C27B0"
+            android:textFontWeight="600"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/etpRadioSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+
+
+
+</LinearLayout>
