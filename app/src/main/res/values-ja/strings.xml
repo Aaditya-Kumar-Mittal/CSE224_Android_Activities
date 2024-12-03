@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">kotlin_project</string>
+    <string name="my_name">アーディティヤ・クマール・ミッタル</string>
+    <string name="dob">DOB: 15th June, 2024</string>
+    <string name="address">Ambala Cantt.</string>
+    <string name="bio">Discipline is the strongest form of self-love. It is ignoring what you want now for something better on in your life.</string>
+    <string name="like">Like ❤️</string>
+    <string name="comment">Comment 👍</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="registration">Enter your Registration Number</string>
+    <string name="form_heading">A Basic Form Page</string>
+    <string name="name_input">Enter your name</string>
+    <string name="sample_image">Sample Image</string>
+    <string name="enter_data">Enter the data</string>
+    <string name="add_list">Add To List</string>
+    <string name="vision">Empowering Education</string>
+    <string name="three_ducks">Three Ducks</string>
+</resources>

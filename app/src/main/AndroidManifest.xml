@@ -30,6 +30,18 @@
         android:theme="@style/Theme.Kotlin_project"
         tools:targetApi="31">
         <activity
+            android:name=".ETP_Question_Change_Text_View_Color"
+            android:exported="true" />
+        <activity
+            android:name=".ETP_Question_Name_Language_Spinner"
+            android:exported="true" />
+        <activity
+            android:name=".ETP_Question_Profile_Backgrounding"
+            android:exported="true" />
+        <activity
+            android:name=".ETP_Question_Caller"
+            android:exported="true" />
+        <activity
             android:name=".ETP_RadioButtonPractice"
             android:exported="true" />
         <activity

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/etpShowProfile"
+        android:icon="@drawable/icon_profile"
+        android:title="Profile"
+        android:iconTint="@color/orange"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/etpShowSettings"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Settings"
+        android:iconTint="@color/orange"
+        app:showAsAction="always" />
+
+</menu>
