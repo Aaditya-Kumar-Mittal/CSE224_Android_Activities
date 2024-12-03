@@ -33,7 +33,7 @@
         android:id="@+id/toHindi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="हिंदी में " />
+        android:text="हिंदी में" />
 
     <Button
         android:id="@+id/toEnglish"
