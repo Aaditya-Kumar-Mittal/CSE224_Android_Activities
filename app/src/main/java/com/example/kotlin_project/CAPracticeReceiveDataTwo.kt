@@ -22,8 +22,5 @@ class CAPracticeReceiveDataTwo : AppCompatActivity() {
 
         rU.text = user
         rP.text = pass
-
-
-
     }
 }

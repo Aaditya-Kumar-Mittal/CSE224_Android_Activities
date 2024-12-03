@@ -29,4 +29,5 @@
     <string name="aaditya_kumar" translatable="false">Aaditya Kumar</string>
     <string name="male" translatable="false">Male</string>
     <string name="age_19" translatable="false">19</string>
+    <string name="three_ducks">Three Ducks</string>
 </resources>

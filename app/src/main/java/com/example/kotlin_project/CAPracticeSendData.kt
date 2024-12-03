@@ -19,17 +19,18 @@ class CAPracticeSendData : AppCompatActivity() {
         val inputPassword = findViewById<EditText>(R.id.inputPassword1)
         val sendMyData = findViewById<Button>(R.id.sendUserPass1)
 
-        sendMyData.setOnClickListener{
+        sendMyData.setOnClickListener {
 
             val userName = inputUserName.text.toString()
             val passWord = inputPassword.text.toString()
 
             val intent = Intent(this, CAPracticeReceiveDataTwo::class.java).also {
-                it.putExtra("USER_NAME",userName)
-                it.putExtra("PASS_WORD",passWord)
+                it.putExtra("USER_NAME", userName)
+                it.putExtra("PASS_WORD", passWord)
             }
 
-            startActivity(intent
+            startActivity(
+                intent
             )
         }
 

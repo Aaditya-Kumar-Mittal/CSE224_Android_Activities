@@ -26,6 +26,36 @@
         android:theme="@style/Theme.Kotlin_project"
         tools:targetApi="31">
         <activity
+            android:name=".ETP_ActionBarPractice"
+            android:exported="true" />
+        <activity
+            android:name=".ETP_ReceiveDataPractice"
+            android:exported="true" />
+        <activity
+            android:name=".ETP_SendDataPractice"
+            android:exported="true" />
+        <activity
+            android:name=".EtpPracticeImplicit"
+            android:exported="true" />
+        <activity
+            android:name=".ETP_ImplicitIntentPractice"
+            android:exported="true" />
+        <activity
+            android:name=".ETP_SnackbarPractice"
+            android:exported="true" />
+        <activity
+            android:name=".ETP_AppLocalizationPractice"
+            android:exported="true" />
+        <activity
+            android:name=".ETP_GridLayoutPractice"
+            android:exported="true" />
+        <activity
+            android:name=".ETPListViewPractice"
+            android:exported="true" />
+        <activity
+            android:name=".ETPSpinnerPractice"
+            android:exported="true" />
+        <activity
             android:name=".ProfileActivity"
             android:exported="true" />
         <activity
