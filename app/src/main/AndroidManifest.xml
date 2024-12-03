@@ -11,6 +11,10 @@
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission
         android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
         tools:ignore="ScopedStorage" />
@@ -25,6 +29,36 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Kotlin_project"
         tools:targetApi="31">
+        <activity
+            android:name=".ETP_RadioButtonPractice"
+            android:exported="true" />
+        <activity
+            android:name=".ETP_CheckBoxPractice"
+            android:exported="true" />
+        <activity
+            android:name=".ETP_PopUpMenuPractice"
+            android:exported="true" />
+        <activity
+            android:name=".ETP_ContextMenuPractice"
+            android:exported="true" />
+        <activity
+            android:name=".ETP_AlertDialogPractice"
+            android:exported="true" />
+        <activity
+            android:name=".ETP_AppChooserPractice"
+            android:exported="true" />
+        <activity
+            android:name=".ExternalStoragePermissionActivityTwo"
+            android:exported="true" />
+        <activity
+            android:name=".ExternalStoragePermissionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ETP_BluetoothPermissionPractice"
+            android:exported="true" />
+        <activity
+            android:name=".ETP_CameraPermissionPractice"
+            android:exported="true" />
         <activity
             android:name=".ETP_ActionBarPractice"
             android:exported="true" />

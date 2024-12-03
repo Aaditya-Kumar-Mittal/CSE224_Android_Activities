@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/etpColorBlue"
+        android:icon="@drawable/icon_color"
+        android:title="Color Blue" />
+    <item
+        android:id="@+id/etpColorOriginal"
+        android:icon="@drawable/icon_original"
+        android:title="Change To Original" />
+    <item
+        android:id="@+id/etpRotate"
+        android:icon="@drawable/icon_rotate"
+        android:title="Rotate Image" />
+    <item
+        android:id="@+id/etpShareImage"
+        android:icon="@drawable/icon_share"
+        android:title="Share Image" />
+</menu>

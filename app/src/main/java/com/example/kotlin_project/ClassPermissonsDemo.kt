@@ -6,6 +6,7 @@ import android.graphics.Bitmap
 import android.net.Uri
 import android.os.Bundle
 import android.provider.MediaStore
+import android.util.Log
 import android.widget.Button
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
@@ -15,7 +16,7 @@ import androidx.core.content.ContextCompat
 
 class ClassPermissonsDemo : AppCompatActivity() {
 
-    private val REQUEST_IMAGE_CAPTURE = 1
+    private val REQUEST_IMAGE_CAPTURE = 15
     private val PERMISSION_REQUEST_CODE = 100
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -34,10 +35,20 @@ class ClassPermissonsDemo : AppCompatActivity() {
         }
     }
 
+//    private fun openCamera() {
+//        val takePictureIntent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
+//        if (takePictureIntent.resolveActivity(packageManager) != null) {
+//            startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE)
+//        }
+//    }
+
     private fun openCamera() {
+        Log.d("CameraTest", "openCamera called")
         val takePictureIntent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
         if (takePictureIntent.resolveActivity(packageManager) != null) {
             startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE)
+        } else {
+            Log.d("CameraTest", "No camera available")
         }
     }
 
