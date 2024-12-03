@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_profile"
+        android:title="Profile"
+        android:icon="@drawable/baseline_description_24"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/action_change_theme"
+                android:title="Change Theme" />
+            <item
+                android:id="@+id/action_change_password"
+                android:title="Change Password" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_settings"
+        android:title="Settings"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_settings_24"
+        />
+</menu>
